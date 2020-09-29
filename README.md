@@ -35,6 +35,6 @@ SQL databases <—> noSQL databases:
 SQL database examples:
 - Oracle, MS-SQL, and Postgres SQL
 
-noSQL database:
+noSQL database examples:
 - MongoDB, Cassandra, Hbase
 
