@@ -29,6 +29,27 @@ All development has been performed in branch "lab4_Microservice_Experiment" in m
 
 **Deliverable 3: (3 mark)**
 
-Briefly summarize the differences between Docker and Virtual Machine:
+- Briefly summarize the differences between Docker and Virtual Machine:
 
+Virtual machines (VMs) emulate computer systems. They make it possible to run multiple OS on the same hardware making it seem like separate computers.
+
+Unlike VMs Docker is a type of containers that sit on top of the host OS and the hardware making it possible to have better potability of projects and their dependencies. 
+
+Following are some of the key differences:
+
+VM <—> Docker:
+1. Each VM has own OS <—> All the docker containers share single OS
+2. Hardware is virtualized <—> OS virtualized
+3. 100% isolated <—> Only process level isolation
+4. Heavyweight operation <—> Very lightweight operation
+5. Large startup time, minutes <—> Small startup time, less than seconds
+6. Lots of memory needed <—> Minimal memory needed
+7. Better for apps that require all of OS resources <—> Better for when we want to maximize number of apps rather than giving apps full OS resources
+8. Detailed well defined security <—> simple reduced security
+
+VM examples:
+- Hyper-V, VirtualBox
+
+Docker like container examples:
+- Windows Server containers, and Linux containers like LXD
 
