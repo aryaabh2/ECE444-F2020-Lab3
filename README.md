@@ -1,40 +1,34 @@
-# ECE444-F2020-Lab3
+# ECE444-F2020-Lab3 (LAB-4&5 Experiment)
 
 This repo is a clone of
 https://github.com/miguelgrinberg/flasky
 
----
-**Activity1:-**
+**Deliverable 1: (1 mark)**
+All development has been performed in branch "lab4_Microservice_Experiment" in my Lab3 task GitHub repository 
 
-![Screenshot1](Screenshot1.jpeg)
+**Deliverable 2: (6 mark)**
+- README.md file (Done)
+- To build the system: 
+    - `docker build -t lab4:latest .`
+- To start the system use either of the following commands (both work): 
+    - `docker run -d -p 5000:5000 lab4`
+    - `docker run -it --name lab4 --rm -p 5000:5000 lab4`
+- Location of Docker files:
+    - ./Dockerfile
+    - ./requirements.txt
+- SCREENSHOTS:
 
----
-**Activity2:-**
+    - ![Screenshot1-4&5](Screenshot1-4&5.jpeg)
 
-![Screenshot2](Screenshot2.jpeg)
----
-![Screenshot3](Screenshot3.jpeg)
----
-![Screenshot4](Screenshot4.jpeg)
----
-![Screenshot5](Screenshot5.jpeg)
+    - ![Screenshot2-4&5](Screenshot2-4&5.jpeg)
 
----
-**Activity3:-**
+    - ![Screenshot3-4&5](Screenshot3-4&5.jpeg)
+
+    - ![Screenshot4-4&5](Screenshot4-4&5.jpeg)
 
 
-The main differences between SQL databases and noSQL databases arise from the fact that SQL databases are relational and use structured schemas while noSQL databases are non-relational and use unstructured data. The following are the key differences between the two:
+**Deliverable 3: (3 mark)**
 
-SQL databases <—> noSQL databases:
-1. relational <—> non-relational.
-2. Structured data, have a predefined schema <—> Unstructured data
-3. Vertically scalable <—> horizontally scalable.
-4. Table based <—> documents, key-value pairs, graph
-5. Better when there are relationships between tables, suited for query intensive environment <—> Better for unstructured data like documents or JSON. Good for hierarchical data.
+Briefly summarize the differences between Docker and Virtual Machine:
 
-SQL database examples:
-- Oracle, MS-SQL, and Postgres SQL
-
-noSQL database examples:
-- MongoDB, Cassandra, Hbase
 
